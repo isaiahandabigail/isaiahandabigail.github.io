@@ -1,0 +1,13 @@
+body {
+    background-color: #3d3d3d;
+}
+
+#photobox {
+    height: 100vh;
+}
+
+.gallery {
+    width: 15%;
+    object-fit: cover;
+    position: absolute;
+}
