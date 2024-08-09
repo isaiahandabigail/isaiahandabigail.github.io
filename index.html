@@ -3,12 +3,33 @@
         <title>Isaiah & Abigail</title>
         <script src="photos.js"></script>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fancy_tabs.css">
     </head>
     <body onload=photo_cycle()>
-        <div id="parent">
-            <img id="save-date" src="img/save_the_date.png"/> 
+        <div class="everything">
+        <div class="page">
+            <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1 pcss3t-height-auto">
+				<input type="radio" name="pcss3t" checked  id="tab1"class="tab-content-first">
+				<label for="tab1">Home</label>
+				
+				<input type="radio" name="pcss3t" id="tab2" class="tab-content-2">
+				<label for="tab2">Engagement Photos</label>
+                <ul>
+                    <li class="tab-content tab-content-first" >
+                        <div class="parent">
+                            <img id="save-date" src="img/save_the_date.png"/> 
+                        </div>
+                        <div id="photobox">
+                        </div>
+                    </li>
+                    <li class="tab-content tab-content-2">
+                        <div class="parent">
+                            <p> test </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div id="photobox">
         </div>
     </body>
 </html>
