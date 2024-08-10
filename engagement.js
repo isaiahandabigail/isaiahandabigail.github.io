@@ -100,6 +100,8 @@ function cycleLeft() {
 }
 
 function setPhotos() {
+    CENTER_IDX = Math.floor(CENTER_IDX);
+
     setImg((CENTER_IDX-1+N_IMG) % N_IMG, 'left');
     setImg(CENTER_IDX, 'center');
     setImg((CENTER_IDX+1) % N_IMG, 'right');
@@ -127,7 +129,7 @@ function jumpTo() {
         if (idx == "easter egg") {
             alert("Congrats! You found the secret message :)");
         } else {
-            alert("Please enter a number");
+            alert("Please enter a number from 0-49");
         }
         return;
     } else if (idx < 0 || idx > 49) {
