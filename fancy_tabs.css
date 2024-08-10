@@ -96,7 +96,7 @@
 /* auto height */
 /**/
 .pcss3t-height-auto > ul {
-	height: auto !important;
+	height: 92% !important;
 }
 .pcss3t-height-auto > ul > li {
 	position: static;
