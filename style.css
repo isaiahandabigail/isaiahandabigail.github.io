@@ -5,6 +5,7 @@ body {
     font-family: arial;
     background-image: url("img/purple_bg.jpg");
     background-repeat: repeat;
+    background-size: 300px;
 }
 
 #photobox {

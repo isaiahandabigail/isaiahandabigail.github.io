@@ -2,7 +2,7 @@
 const N_PHOTOS = 50;
 const LINGER = 1;
 const N_PHOTO_BOXES = 3;
-const MV_SPEED = 100;
+const MV_SPEED = 50;
 
 var MV_RATES = Array(N_PHOTOS);
 var IMG_COORDS = Array(N_PHOTOS);
@@ -99,7 +99,7 @@ function fadeCycle(el,i) {
             requestAnimationFrame(tickin)
         }
         else {
-            el.style.opacity = 1+LINGER; // Hacky way to make it stay alive
+            el.style.opacity = 1; // Hacky way to make it stay alive
             tickout();
         }
     };
@@ -126,7 +126,7 @@ function photo_cycle() {
                 img.style.opacity = 0 - Math.random()
                 fadeCycle(img,i);
                 moveCycle(img,i);
-            }, 500*i
+            }, 1000*i
         );
     }
 }
