@@ -764,7 +764,7 @@
 	border-radius: 5px;
 	box-shadow: 0 3px rgba(0,0,0,0.2);
     background-image: url('img/tiling_flowers.png'), linear-gradient(0deg, #4f7a59, #334b34);
-	background-size: 500px;
+	background-size: 400px;
     background-repeat: repeat-x;
 	background-position: bottom;
 }

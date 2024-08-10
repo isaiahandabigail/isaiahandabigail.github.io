@@ -21,6 +21,7 @@ body {
     height: 80%;
     position: relative;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #save-date {
@@ -37,26 +38,27 @@ body {
     box-shadow:5px 5px 5px rgba(0,0,0,0.3);
 }
 
-#header {
-    top: 0px;
-    height: 7.5%;
-    overflow: hidden;
-    background-color: rgb(193, 150, 194);
-    width: 100%;
-    z-index: 10;
-    position: absolute;
-}
 #header-contents {
     top: 0px;
     vertical-align: middle;
     margin-left: 10px;
 }
 
-.gallery {
+.falling-pics {
     width: 15%;
     object-fit: cover;
     position: absolute;
     -moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
     -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
     box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+}
+
+#eng {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+iframe::-webkit-scrollbar {
+    display: none;
 }
