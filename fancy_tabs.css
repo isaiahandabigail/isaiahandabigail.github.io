@@ -25,9 +25,9 @@
 	outline: none;
 	cursor: pointer;
 	transition: all 0.1s;
-	-o-transition: all 0.1s;	
-	-ms-transition: all 0.1s;	
-	-moz-transition: all 0.1s;	
+	-o-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-moz-transition: all 0.1s;
 	-webkit-transition: all 0.1s;
 }
 .pcss3t > label i {
@@ -64,9 +64,9 @@
 	-moz-box-sizing: border-box;
 	opacity: 0;
 	transition: all 0.5s;
-	-o-transition: all 0.5s;	
-	-ms-transition: all 0.5s;	
-	-moz-transition: all 0.5s;	
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-moz-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 }
 .pcss3t > .tab-content-first:checked ~ ul .tab-content-first,
@@ -163,7 +163,7 @@
 	margin-left: 17%;
 }
 .pcss3t .grid-col-offset-2 {
-	margin-left: 36%;	
+	margin-left: 36%;
 }
 .pcss3t .grid-col-offset-2:first-child {
 	margin-left: 34%;
@@ -690,7 +690,7 @@
 /* pad */
 /**/
 @media screen and (max-width: 980px) {
-	
+
 }
 
 
@@ -715,7 +715,7 @@
 /**/
 /* default */
 /**/
-.pcss3t > label {	
+.pcss3t > label {
 	padding: 0 20px;
 	background: #e5e5e5;
 	font-size: 13px;
@@ -732,7 +732,7 @@
 	text-align: left;
 }
 .pcss3t-steps > label:hover {
-	background: #e5e5e5;	
+	background: #e5e5e5;
 }
 
 
@@ -748,7 +748,7 @@
 	opacity: 0.8;
 }
 .pcss3t-theme-1 > label:hover {
-	background: #334b34;
+	background: #455b46;
 	opacity: 1;
 }
 .pcss3t-theme-1 > input:checked + label {
@@ -757,18 +757,19 @@
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	color: #ae98ae;
-    background-image: url('img/green_bg.jpeg');
-    background-repeat: repeat;
+	background-color: #334b34;
 	opacity: 1;
 }
 .pcss3t-theme-1 > ul {
 	border-radius: 5px;
 	box-shadow: 0 3px rgba(0,0,0,0.2);
-    background-image: url('img/green_bg.jpeg');
-    background-repeat: repeat;
+    background-image: url('img/tiling_flowers.png'), linear-gradient(0deg, #4f7a59, #334b34);
+	background-size: 500px;
+    background-repeat: repeat-x;
+	background-position: bottom;
 }
 .pcss3t-theme-1 > li {
-    padding-left: 25px; 
+    padding-left: 25px;
 }
 .pcss3t-theme-1 > .tab-content-first:checked ~ ul {
 	border-top-left-radius: 0;
@@ -835,7 +836,7 @@
 /* theme 3 */
 /**/
 .pcss3t-theme-3 {
-	background: rgba(0,0,0,0.8);	
+	background: rgba(0,0,0,0.8);
 }
 .pcss3t-theme-3 > label {
 	background: none;
