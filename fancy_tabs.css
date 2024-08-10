@@ -748,7 +748,7 @@
 	opacity: 0.8;
 }
 .pcss3t-theme-1 > label:hover {
-	background: #455b46;
+	background: #526453;
 	opacity: 1;
 }
 .pcss3t-theme-1 > input:checked + label {
@@ -757,13 +757,13 @@
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
 	color: #ae98ae;
-	background-color: #334b34;
+	background-color: #526453;
 	opacity: 1;
 }
 .pcss3t-theme-1 > ul {
 	border-radius: 5px;
 	box-shadow: 0 3px rgba(0,0,0,0.2);
-    background-image: url('img/tiling_flowers.png'), linear-gradient(0deg, #4f7a59, #334b34);
+    background-image: url('img/tiling_flowers.png'), linear-gradient(0deg, #71967a, #526453);
 	background-size: 400px;
     background-repeat: repeat-x;
 	background-position: bottom;
