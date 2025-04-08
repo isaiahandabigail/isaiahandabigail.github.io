@@ -2,10 +2,12 @@
     <head>
         <title>Isaiah & Abigail</title>
         <script src="fallingPics.js"></script>
+        <script src="register_functions.js"></script>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="fancy_tabs.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     </head>
-    <body onload=photo_cycle()>
+    <body onload=start_everything()>
         <div class="everything">
         <div class="page">
             <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1 pcss3t-height-auto">
@@ -22,42 +24,6 @@
                     <li class="tab-content tab-content-first" >
                         <div class="parent">
                             <!-- <img id="save-date" src="img/save_the_date.png"/> -->
-                            <div class="info">
-                                <h1>Important Information</h1>
-                                <p>June 28th, 2025</p>
-                                <div class="tbl-header">
-                                    <table cellpadding="0" cellspacing="0" border="0">
-                                    <thead>
-                                        <tr>
-                                        <th></th>
-                                        <th></th>
-                                        <th></th>
-                                        </tr>
-                                    </thead>
-                                    </table>
-                                </div>
-                                <div class="tbl-content">
-                                    <table cellpadding="0" cellspacing="0" border="0">
-                                    <tbody>
-                                        <tr>
-                                        <td>Service</td>
-                                        <td>(2PM)</td>
-                                        <td>St. Timothy Catholic Church<br>13807 Poplar Tree Rd,<br>Chantilly, VA 20151</td>
-                                        </tr>
-                                        <tr>
-                                        <td>Reception</td>
-                                        <td>(~4PM)</td>
-                                        <td>The Atrium at Meadowlark<br>9750 Meadowlark Gardens Ct,<br>Vienna, VA 22182</td>
-                                        </tr>
-                                        <td>Hotel Information</td>
-                                        <td></td>
-                                        <td><a href="https://www.hyatt.com/en-US/group-booking/IADZS/G-WKWG?src=hpe-hy-email_ems_ems-planner-portal-res-information_iadzs_en-US_product-offer_chico_mainbody_0_PLACE_FLBK", target="_blank">Hyatt Place Chantilly/Dulles Airport-South</a></td>
-                                        </tr>
-                                        <tr><td colspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeONV6f9JbsgLxQeYjBTFdZ0V4hnlX5w9HqxfdhvulmVsN8Hg/viewform?usp=sharing"><button>RSVP</button></a></td></tr>
-                                    </tbody>
-                                    </table>
-                                </div>
-                            </div>
                         </div>
                         <div id="photobox">
                         </div>
@@ -71,5 +37,38 @@
             </div>
         </div>
         </div>
+        <div id="info-container">
+            <div id="info">
+                <h1>Important Information</h1>
+                <p>June 28th, 2025</p>
+                <div class="tbl-header">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                    <thead>
+                        <tr><td colspan="3"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeONV6f9JbsgLxQeYjBTFdZ0V4hnlX5w9HqxfdhvulmVsN8Hg/viewform?usp=sharing"><button>RSVP</button></a></td></tr>
+                    </thead>
+                    </table>
+                </div>
+                <div class="tbl-content">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                        <td>Service</td>
+                        <td>(2PM)</td>
+                        <td>St. Timothy Catholic Church<br>13807 Poplar Tree Rd,<br>Chantilly, VA 20151</td>
+                        </tr>
+                        <tr>
+                        <td>Reception</td>
+                        <td>(~4PM)</td>
+                        <td>The Atrium at Meadowlark<br>9750 Meadowlark Gardens Ct,<br>Vienna, VA 22182</td>
+                        </tr>
+                        <td>Hotel Information</td>
+                        <td></td>
+                        <td><a href="https://www.hyatt.com/en-US/group-booking/IADZS/G-WKWG?src=hpe-hy-email_ems_ems-planner-portal-res-information_iadzs_en-US_product-offer_chico_mainbody_0_PLACE_FLBK", target="_blank">Hyatt Place Chantilly/Dulles Airport-South</a></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+            </div>
     </body>
 </html>

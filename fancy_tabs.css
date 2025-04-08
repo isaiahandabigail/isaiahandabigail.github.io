@@ -96,7 +96,8 @@
 /* auto height */
 /**/
 .pcss3t-height-auto > ul {
-	height: 92% !important;
+	height: calc(100% - 80px) !important;
+	min-height: 700px !important; 
 }
 .pcss3t-height-auto > ul > li {
 	position: static;

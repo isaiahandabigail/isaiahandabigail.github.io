@@ -84,7 +84,7 @@ function fadeCycle(el,i) {
 
             el.style.left = String(left_top[0]) + '%';
             el.style.top = String(left_top[1]) + '%';
-            console.log("Top ", el.style.top, "Left", el.style.left);
+            //console.log("Top ", el.style.top, "Left", el.style.left);
 
             MV_RATES[i] = Math.floor(Math.random()*MV_SPEED);
             tickin(i);

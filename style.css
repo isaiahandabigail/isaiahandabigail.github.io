@@ -20,15 +20,24 @@ body {
     z-index: 1;
 }
 
-.info {
+#info-container {
+    text-align: center;
+    float: none;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 10;
+}
+
+#info {
     width: 50%; 
     min-width: 320px;
-    min-height: 720px; 
-    top: 5%; 
-    height: auto; 
-    margin: 0 auto; 
-    padding: 10px; 
-    position: relative; 
+    margin: auto; 
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
     background: linear-gradient(0deg, #9d75a7, #8d6a96);
     border: 1px solid rgba(255,255,255,0.3);
     z-index: 5;
@@ -100,6 +109,14 @@ td:nth-child(2) {
     overflow-x: hidden;
 }
 
+.infobox {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 #save-date {
     position: absolute;
     top: 10%;
@@ -132,6 +149,7 @@ td:nth-child(2) {
 #eng {
     width: 100%;
     height: 100%;
+    position: relative;
     overflow: hidden;
 }
 
