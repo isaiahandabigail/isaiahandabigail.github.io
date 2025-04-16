@@ -94,15 +94,16 @@ td button {
     margin: auto;
 }
 
-td:first-child {
-    width: 0%; 
-    font-weight: bold;
-}
 td:nth-child(1) {
-    width: 20%;
-}
+    width: 10%;
+    font-weight: bold;
+}   
 td:nth-child(2) {
-    width: 15%
+    width: 10%;
+    text-align: left;
+}
+td:nth-child(3) {
+    width: 30%;
 }
 
 
