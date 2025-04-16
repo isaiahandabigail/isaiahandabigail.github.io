@@ -95,14 +95,14 @@ td button {
 }
 
 td:first-child {
-    width: 20%; 
+    width: 0%; 
     font-weight: bold;
 }
 td:nth-child(1) {
-    width: 15%;
+    width: 20%;
 }
 td:nth-child(2) {
-    width: 25%
+    width: 15%
 }
 
 
