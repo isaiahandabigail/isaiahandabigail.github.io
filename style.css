@@ -95,11 +95,11 @@ td button {
 }
 
 td:nth-child(1) {
-    width: 10%;
+    width: 15%;
     font-weight: bold;
 }   
 td:nth-child(2) {
-    width: 10%;
+    width: 5%;
     text-align: left;
 }
 td:nth-child(3) {
