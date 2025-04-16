@@ -34,6 +34,7 @@ body {
 #info {
     width: 50%; 
     min-width: 320px;
+    max-width: 500px;
     margin: auto; 
     display: inline-block;
     vertical-align: middle;
@@ -44,11 +45,15 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    color: #fff; 
+}
+
 .info h1, p {
     text-align: center;
     color: #fff
 }
-.info a {
+.tbl-content a {
     color: #fce4f7
 }
 
