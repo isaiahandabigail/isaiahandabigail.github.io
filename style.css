@@ -33,7 +33,7 @@ body {
 
 #info {
     width: 50%; 
-    min-width: 360px;
+    min-width: 350px;
     max-width: 500px;
     margin: auto; 
     display: inline-block;
