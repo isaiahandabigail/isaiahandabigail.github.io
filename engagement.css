@@ -6,8 +6,8 @@
 }
 
 #engContainer {
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 75%;
     padding: 0;
     margin: auto;
     position: relative;
@@ -41,8 +41,8 @@ input {
 #centerContainer {
     position: absolute;
     top: 0;
-    left: calc((1/3)*100%);
-    width: calc((1/3)*100%);
+    left: 12.5%;
+    width: 75%;
     height: 100%;
     z-index: 2;
     display: flex;

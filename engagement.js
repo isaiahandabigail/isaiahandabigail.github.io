@@ -102,9 +102,9 @@ function cycleLeft() {
 function setPhotos() {
     CENTER_IDX = Math.floor(CENTER_IDX);
 
-    setImg((CENTER_IDX-1+N_IMG) % N_IMG, 'left');
+    //setImg((CENTER_IDX-1+N_IMG) % N_IMG, 'left');
     setImg(CENTER_IDX, 'center');
-    setImg((CENTER_IDX+1) % N_IMG, 'right');
+    //setImg((CENTER_IDX+1) % N_IMG, 'right');
 
     setNum(CENTER_IDX);
 }
@@ -142,9 +142,9 @@ function jumpTo() {
 }
 
 function setup() {
-    setImg(49, 'left');
+    //setImg(49, 'left');
     setImg(0, 'center');
-    setImg(1, 'right');
+    //setImg(1, 'right');
 
     // Listener for enter in textbox
     document.onkeydown=function(evt){
