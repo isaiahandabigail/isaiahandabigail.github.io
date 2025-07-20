@@ -1,5 +1,5 @@
 // All file names are /img/{i}.jpg for i in 0-49
-const N_PHOTOS = 50;
+const N_PHOTOS = 60;
 const LINGER = 1;
 const N_PHOTO_BOXES = 3;
 const MV_SPEED = 50;
@@ -27,7 +27,7 @@ function select_random_photo(i) {
         }
     }
 
-    let photo_str = "img/engagement/" + idx + ".jpg"
+    let photo_str = "img/wedding/" + idx + ".jpg"
     return photo_str
 }
 
@@ -41,12 +41,17 @@ function box_muller_transform(mean, std) {
 }
 
 function get_new_coords(i) {
-    x = Math.abs(box_muller_transform(25, 10));
+    x = Math.abs(box_muller_transform(25, 5));
     y = box_muller_transform(10, 10);
 
     // Decide if left or right
     if (Math.random() > 0.5) {
         x += 50;
+    }
+
+    // Decide if top or bottom 
+    if (Math.random() > 0.5) {
+        y += 400; 
     }
 
     return [x,y];
